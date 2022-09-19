@@ -5,7 +5,7 @@
  * @s: an input string
  * Return: nothing
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	len 0;
 
