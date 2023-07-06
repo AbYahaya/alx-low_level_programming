@@ -11,5 +11,5 @@ int factorial(int h)
 		return (-1);
 	if (h <= 1)
 		return (1);
-	return (n * factorial(h - 1));
+	return (h * factorial(h - 1));
 }
