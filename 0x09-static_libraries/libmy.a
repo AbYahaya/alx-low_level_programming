@@ -1,0 +1,266 @@
+!<arch>
+0-putchar.c/    0           0     0     644     175       `
+#include "main.h"
+
+/**
+ * _putchar - A function that prints to stdout
+ * @c: an input string
+ * Return: Returns an int
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
+3-islower.c/    0           0     0     644     139       `
+#include "main.h"
+
+/**
+ * _islower - a function 
+ * @c: an input string
+ * Return: returns an int
+ */
+int _islower(int c)
+{
+	return (1);
+}
+
+4-isalpha.c/    0           0     0     644     131       `
+#include "main.h"
+
+/**
+ * _isalpha - A function
+ * @c: an input
+ * Return: returns an int
+ */
+int _isalpha(int c)
+{
+	return (1);
+}
+
+6-abs.c/        0           0     0     644     123       `
+#include "main.h"
+
+/**
+ * _abs - a funtion
+ * @n: an input 
+ * Return: returns an int
+ */
+int _abs(int n)
+{
+	return (1);
+}
+
+_atoi.c/        0           0     0     644     124       `
+#include "main.h"
+
+/**
+ * _atoi - A funtion
+ * @s: input 
+ * Return: returns an int
+ */
+int _atoi(char *s)
+{
+	return (1);
+}
+isdigit.c/      0           0     0     644     138       `
+#include "main.h"
+
+/**
+ * _isdigit - A function
+ * @c: an input string
+ * Return: returns an int
+ */
+int _isdigit(int c)
+{
+	return (1);
+}
+isupper.c/      0           0     0     644     135       `
+#include "main.h"
+
+/**
+ * _isupper - A function
+ * @c: input string
+ * Return: returns an int
+ */
+int _isupper(int c)
+{
+	return (1):
+}
+
+memcpy.c/       0           0     0     644     193       `
+#include "main.h"
+
+/**
+ * _memcpy - a function
+ * @dest: an iput
+ * @src: another
+ * @n: input int
+ * Return: a char
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	return (aux);
+}
+
+memset.c/       0           0     0     644     184       `
+#include "main.h"
+
+/**
+ * _memset - a function
+ * @s: an input
+ * @b: another 
+ * @n: input int
+ * Return: a char
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+	return (aux);
+}
+puts.c/         0           0     0     644     126       `
+#include "main.h"
+
+/**
+ * _puts - A function
+ * @s - an input
+ * Return: returns an int
+ */
+void _puts(char *s)
+{
+	return ;
+}
+strcat.c/       0           0     0     644     176       `
+#include "main.h"
+
+/**
+ * _strcat - a function
+ * @dest: an input 
+ * @src: another input
+ * Return: returns a char
+ */
+char *_strcat(char *dest, char *src)
+{
+	return (aux);
+}
+strchr.c/       0           0     0     644     152       `
+#include "main.h"
+
+/**
+ * _strchr - An function
+ * @s: an input
+ * @c: another 
+ * Return: a char
+ */
+char *_strchr(char *s, char c)
+{
+	return (aux);
+}
+strcmp.c/       0           0     0     644     164       `
+#include "main.h"
+
+/**
+ * _strcmp - A function
+ * @s1: an input
+ * @s2: Anther input
+ * Return: returns an int
+ */
+int _strcmp(char *s1, char *s2)
+{
+	return (1);
+}
+strcpy.c/       0           0     0     644     175       `
+#include "main.h"
+
+/**
+ * _strcpy - A function
+ * @dest: an input
+ * @src: another input
+ * Return: returns a char
+ */
+char *_strcpy(char *dest, char *src)
+{
+	return (aux);
+}
+
+strlen.c/       0           0     0     644     138       `
+#include "main.h"
+
+/**
+ * _strlen - A function
+ * @s: an input string
+ * Return: returns an int
+ */
+int _strlen(char *s)
+{
+	return (1);
+}
+strncat.c/      0           0     0     644     199       `
+#include "main.h"
+
+/**
+ * _strncat -A function
+ * @dest: An iput
+ * @src: Another input
+ * @n: input int
+ * Return: Retrunds achar
+ */
+char *_strncat(char *dest, char *src, int n)
+{
+	return (aux);
+}
+
+strncpy.c/      0           0     0     644     202       `
+#include "main.h"
+
+/**
+ * _strncpy - A function
+ * @dest: input string
+ * @src: another input
+ * @n: an int
+ * Return: returns a char
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+	return (aux);
+}
+strpbrk.c/      0           0     0     644     159       `
+#include "main.h"
+
+/*
+ * _strpbrk - A fution
+ * @s: an iput
+ * @accept: another
+ * Return: a char
+ */
+char *_strpbrk(char *s, char *accept)
+{
+	return (aux);
+}
+
+strspn.c/       0           0     0     644     166       `
+#include "main.h"
+
+/**
+ * _strspn - A function
+ * @s: an input
+ * @accept: another
+ * Return: an int
+ */
+unsigned int _strspn(char *s, char *accept)
+{
+	return (1);
+}
+strstr.c/       0           0     0     644     177       `
+#include "main.h"
+
+/**
+ * _strstr - A function
+ * @haystack: an inp
+ * @needle: another one
+ * Return: a char
+ */
+char *_strstr(char *haystack, char *needle)
+{
+	return (aux);
+}
+
