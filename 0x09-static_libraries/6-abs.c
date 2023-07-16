@@ -2,10 +2,14 @@
 
 /**
  * _abs - a funtion
- * @n: an input 
+ * @n: an input
+ * Description: This function returns absolute value of a number
  * Return: returns an int
  */
 int _abs(int n)
 {
-	return (1);
+	if (n >= 0)
+		return (n);
+	else
+		return (n * -1);
 }

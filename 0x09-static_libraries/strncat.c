@@ -1,13 +1,21 @@
 #include "main.h"
 
 /**
- * _strncat -A function
- * @dest: An iput
- * @src: Another input
- * @n: input int
- * Return: Retrunds achar
+ * _strcat - a function that concatenates two strings.
+ * @dest: an input string
+ * @src: an input string
+ * Return: A pointer to the resulting string
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	return (aux);
+	char *temp = dest;
+
+	while (*dest)
+		dest++;
+
+	while (*src)
+		*dest++ = *src++;
+
+	*dest = '\0';
+	return (temp);
 }

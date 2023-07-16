@@ -8,5 +8,19 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	return (aux);
+	char *start = accept;
+
+	while (*s)
+	{
+		while (*accept)
+		{
+			if (*accept == *s)
+				return (s);
+			accept++;
+		}
+
+		accept = start;
+		s++;
+	}
+	return (NULL);
 }
