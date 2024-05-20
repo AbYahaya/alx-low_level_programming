@@ -2,10 +2,10 @@
 
 /**
  * linear_search - linear search algorithm
- * @array: A pointer to the array to search
+ * @array: A pointer to input array
  * @size: The size of array.
  * @value: The value to search
- * Return: The index of value in array
+ * Return: The index of the value
  */
 int linear_search(int *array, size_t size, int value)
 {
